@@ -1,2 +1,3 @@
-# uwr2022-frontend
-Frontend course "Kurs: Tworzenie aplikacji frontendowych"
+# Materiały do Kursu tworzenia aplikacji frontendowych
+
+Listy zadań oraz materiały z wykładów kursu "Tworzenie aplikacji frontendowych" który prowadziłem na UWr w semestrze zimowym 2022/2023.
