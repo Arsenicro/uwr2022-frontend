@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Exercise 2</title>
+    <style>
+      html {
+        font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+      }
+
+      * {
+        font-size: 40px;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      #first-box,
+      #second-box,
+      #third-box {
+        background-color: red;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        color: black;
+      }
+
+      .image {
+        width: 500px;
+        height: 500px;
+      }
+
+      a.link {
+        text-decoration: underline;
+        color: green;
+      }
+
+      #second-section .animal-list li {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="first-section">
+      <h2>First Section</h2>
+
+      <div id="first-box" class="box first-box">Content</div>
+      <div id="second-box" class="box second-box">Content</div>
+      <div id="third-box" class="box third-box">Content</div>
+    </section>
+
+    <section id="second-section">
+      <h2>Second Section</h2>
+
+      <ul class="animal-list">
+        <li>
+          Dogs:
+          <ol>
+            <li>Golden Retriever</li>
+            <li>German Shepherd Dog</li>
+            <li>Samoyed</li>
+          </ol>
+        </li>
+        <li>
+          Cats:
+          <ul>
+            <li>Siamese</li>
+            <li>Persian</li>
+            <li>Birman</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="third-section">
+      <h2>Third Section</h2>
+
+      <p>
+        Read more about
+        <a class="link" href="https://en.wikipedia.org/wiki/Dog">Dogs</a> and
+        <a class="link" href="https://en.wikipedia.org/wiki/Cat">Cats</a>
+      </p>
+    </section>
+
+    <section id="forth-section">
+      <h2>Forth Section</h2>
+
+      <img
+        class="image"
+        src="./images/dog.jpg"
+        alt="photo of two cute dogs, young samoyeds"
+      />
+    </section>
+  </body>
+</html>

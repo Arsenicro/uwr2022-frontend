@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        color: red;
+      }
+
+      input[type="color"] {
+        height: 50px;
+      }
+
+      .box[asdf="xyz"] {
+        background-color: green;
+      }
+
+      div,
+      p {
+        background-color: aqua;
+      }
+
+      div > p {
+        color: white;
+      }
+      span p {
+        color: rebeccapurple;
+      }
+
+      .paragraph {
+        background-color: brown;
+      }
+
+      .paragraph::before {
+        content: "Assdsdfsd";
+      }
+
+      .paragraph:hover {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" asdf="xyz">Content1</div>
+    <div>Content1</div>
+    <div>Content1</div>
+    <div>Content1</div>
+    <p>Asfd</p>
+    <a>Asdf</a>
+
+    <input /> <input type="color" />
+
+    <div>
+      <p>Asdf</p>
+    </div>
+    <span>
+      <a>
+        <p>Asdf</p>
+      </a>
+    </span>
+
+    <p class="paragraph">ASdf</p>
+  </body>
+</html>
