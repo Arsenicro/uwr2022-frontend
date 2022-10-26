@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        gap: 1rem;
+      }
+
       .item {
-        width: 100%;
+        width: 100px;
         height: 100px;
       }
 
       .item1 {
         background-color: red;
+        justify-self: center;
+        align-self: center;
+        grid-column: 1 / span 2;
+
+        grid-row-start: 1;
+        grid-row-end: 3;
       }
 
       .item2 {
@@ -21,17 +34,18 @@
 
       .item3 {
         background-color: green;
+        grid-row: span 2;
       }
 
       .item4 {
         background-color: violet;
+        grid-column: 1;
+        grid-row: 1;
       }
 
       .item5 {
         background-color: aqua;
-      }
-
-      .container {
+        grid-column: 1 / span 3;
       }
     </style>
   </head>

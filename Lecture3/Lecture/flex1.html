@@ -9,9 +9,13 @@
       .container {
         border: 2px solid black;
         padding: 6px;
+        display: flex;
       }
       .element {
         border: 2px solid red;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 100%;
       }
     </style>
   </head>
@@ -19,9 +23,7 @@
     <div class="container">
       <div class="element">Lorem</div>
       <div class="element">Lorem ipsum</div>
-      <div class="element">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit
-      </div>
+      <div class="element">Lorem ipsumasdasdasd dolor sit amet</div>
     </div>
   </body>
 </html>
