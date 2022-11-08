@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .profiles__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
+      }
+
+      .profile {
+        width: 100%;
+        min-height: 100px;
+        border-radius: 20px;
+        display: flex;
+        gap: 1rem;
+        /* Created with https://www.css-gradient.com */
+        background: #5873d3;
+        background: -webkit-linear-gradient(top left, #5873d3, #4bb2e2);
+        background: -moz-linear-gradient(top left, #5873d3, #4bb2e2);
+        background: linear-gradient(to bottom right, #5873d3, #4bb2e2);
+        color: white;
+        padding: 2rem;
+      }
+
+      .profile__left-column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile__image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 2px solid white;
+      }
+
+      .profile__right-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .profile__contact-wrapper {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile__contact-button {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.8rem 1.3rem;
+        border-radius: 5px;
+        /* Created with https://www.css-gradient.com */
+        background: #0fce39;
+        background: -webkit-linear-gradient(top left, #0fce39, #1dcece);
+        background: -moz-linear-gradient(top left, #0fce39, #1dcece);
+        background: linear-gradient(to bottom right, #0fce39, #1dcece);
+        border: 2px solid transparent;
+      }
+
+      .profile__contact-button:hover {
+        background: white;
+        color: #0fce39;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profiles__wrapper">
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+          </div>
+          <h2 class="profile__name">Alice Young</h2>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile__left-column">
+          <div class="profile__image-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Elizabeth_Gillies_by_Gage_Skidmore.jpg"
+              alt="profile"
+              class="profile__image"
+            />
+            <h2 class="profile__name">Alice Young</h2>
+          </div>
+        </div>
+        <div class="profile__right-column">
+          <p class="profile__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            vitae dolor temporibus veritatis, repellat quaerat modi nobis quo
+            quis aliquid rem harum quos vero architecto dignissimos eos
+            doloribus, eligendi aliquam.
+          </p>
+
+          <div class="profile__contact-wrapper">
+            <button class="profile__contact-button">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
