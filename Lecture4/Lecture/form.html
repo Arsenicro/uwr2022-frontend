@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style></style>
+    <style>
+      input:invalid {
+        border-color: red;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <label for="name">Name*:</label>
+      <input id="name" name="name" required minlength="3" />
+      <label for="email">Email*:</label>
+      <input id="email" name="email" required pattern="\S+@\S+\.\S+" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>

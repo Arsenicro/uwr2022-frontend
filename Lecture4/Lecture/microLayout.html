@@ -16,6 +16,16 @@
         gap: 10rem;
       }
 
+      @media (max-width: 600px) {
+        .profiles__wrapper {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        .profile {
+          flex-direction: row;
+        }
+      }
+
       .profile {
         width: 100%;
         min-height: 100px;
@@ -29,6 +39,12 @@
         background: linear-gradient(to bottom right, #5873d3, #4bb2e2);
         color: white;
         padding: 2rem;
+      }
+
+      @media (max-width: 1000px) and (min-width: 600px), (max-width: 400px) {
+        .profile {
+          flex-direction: column;
+        }
       }
 
       .profile__left-column {

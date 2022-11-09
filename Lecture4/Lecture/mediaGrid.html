@@ -14,8 +14,20 @@
         grid-template-areas:
           "first first second"
           "first first second"
-          "third third forth"
-          "fifth fifth forth";
+          "third third fourth"
+          "fifth fifth fourth";
+      }
+
+      @media (max-width: 700px) {
+        .container {
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-areas:
+            "first"
+            "second"
+            "third"
+            "fourth"
+            "fifth";
+        }
       }
 
       .item {
@@ -40,7 +52,7 @@
 
       .item4 {
         background-color: violet;
-        grid-area: forth;
+        grid-area: fourth;
       }
 
       .item5 {
