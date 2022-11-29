@@ -1,0 +1,53 @@
+<!-- https://javascript.info/event-delegation -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="./p3.js"></script>
+    <style>
+      td {
+        width: 100px;
+        height: 100px;
+        color: white;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .violet {
+        background-color: violet;
+      }
+
+      .red {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="green">First</td>
+        <td class="blue">Second</td>
+        <td class="violet">Third</td>
+      </tr>
+      <tr>
+        <td class="violet">First</td>
+        <td class="green">Second</td>
+        <td class="blue">Third</td>
+      </tr>
+      <tr>
+        <td class="blue">First</td>
+        <td class="violet">Second</td>
+        <td class="green">Third</td>
+      </tr>
+    </table>
+  </body>
+</html>
