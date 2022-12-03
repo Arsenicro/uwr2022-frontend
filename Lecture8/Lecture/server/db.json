@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "surname": "Young",
+      "contact": {
+        "email": "alice@young.pl",
+        "phone": "111-111-111"
+      }
+    }
+  ]
+}
