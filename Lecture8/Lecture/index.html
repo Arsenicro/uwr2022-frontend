@@ -8,33 +8,27 @@
   </head>
   <body>
     <div>
-      <form id="addUser">
-        <h2>Add User:</h2>
+      <form id="addBook">
+        <h2>Add Book:</h2>
         <label>
-          Name
-          <input required name="name" />
-        </label>
-        <label>
-          Surname
-          <input required name="surname" />
-        </label>
+          Title
+          <input required name="title" />
         </label>
         <label>
-          Email
-          <input required name="email" />
-        </label>
+          Author
+          <input required name="author" />
         </label>
         <label>
-          Phone
-          <input name="phone" />
+          Pages
+          <input required name="pages" type="number" />
         </label>
 
         <button>Add!</button>
       </form>
     </div>
     <div>
-      <h2>Users:</h2>
-      <ul id="users"></ul>
+      <h2>Books:</h2>
+      <ul id="books"></ul>
     </div>
     <script src="./script.js"></script>
   </body>

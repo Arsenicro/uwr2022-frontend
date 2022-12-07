@@ -9,5 +9,19 @@
         "phone": "111-111-111"
       }
     }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "pages": 136
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "pages": "300",
+      "id": 4
+    }
   ]
 }
