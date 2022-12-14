@@ -1,0 +1,5 @@
+{ //This is fix for strange behavior in first few examples
+  "compilerOptions": {
+      "lib": ["es6"]
+    }
+}
