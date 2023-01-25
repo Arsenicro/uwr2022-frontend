@@ -1,0 +1,22 @@
+@mixin img-mixin($height) {
+  height: $height;
+  padding: 1.5em;
+}
+
+.logo {
+  will-change: filter;
+  @include img-mixin(6em);
+
+  img {
+  }
+
+  &:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  &.vanilla {
+    &:hover {
+      filter: drop-shadow(0 0 2em #f7df1eaa);
+    }
+  }
+}
