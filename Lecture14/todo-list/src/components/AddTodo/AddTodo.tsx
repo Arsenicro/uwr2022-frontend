@@ -18,7 +18,7 @@ const AddTodo = ({addTodo}: IProps) => {
   };
 
   return (
-    <form onSubmit={onAdd}>
+    <form onSubmit={onAdd} data-testid="add-form">
       <Grid container spacing={1}>
         <Grid xs>
           <TextField label="New Todo" id="newTodo" value={input} onChange={(e) => setInput(e.target.value)} fullWidth />

@@ -19,11 +19,14 @@ const TodoList = () => {
   return (
     <StyledPaper elevation={3}>
       <Typography variant='h1' align='center'>Todo List</Typography>
+
       <AddTodo addTodo={addTodo} />
-      <List sx={{ width: '100%' }}>
+
+      <List sx={{ width: '100%' }} data-testid="todo-list">
         {todoList.map((todo) => (
           <ListItem
             key={todo.id}
+            data-testid="todo-item"
             disableGutters
             secondaryAction={
               <Grid container spacing={1}>
